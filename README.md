@@ -4,10 +4,10 @@ Just DNA-Seq
 Just a DNA-Seq analysis pipeline for personal and public genomes with some plugins and scripts on top of it.
 
 Despite being expensive in the beginning, today genome sequencing is something accessible to all of us and costs roughly 400-800 dollars.
-There are multiple sequencing and analysis proprietary services, however their results are often based on proprietary databases and algorithms, and their predictions are often non-transparent.
+There are multiple sequencing and analysis proprietary services, however, their results are often based on proprietary databases and algorithms, and their predictions are often non-transparent.
 
 Just DNA-Seq project was created primarily for transparency reasons: we wanted to understand what is happening. 
-We also wanted to use the latest version of the tools as we discovered that, for example, DANTE-labs were using outdated version of the genomes and GATK.
+We also wanted to use the latest version of the tools as we discovered that, for example, DANTE-labs were using an outdated version of the genomes and GATK.
 
 The project consists of multiple pipelines and scripts and can be either used separately or all-together.
 Recently we started working on longevity applications as there are no good tools or plugins for longevity genetic variant annotations.
@@ -143,7 +143,7 @@ Opencravat annotations
 ======================
 
 Opencravat is included to the environment.
-Before starting, it is recommended to install annotation modules of your interested.
+Before starting, it is recommended to install annotation modules of your interest.
 There is a dvc stage for the default modules:
 ```bash
 dvc repro install_opencravat
